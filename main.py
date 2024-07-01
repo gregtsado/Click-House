@@ -7,7 +7,7 @@ from sqlalchemy import text
 query ="""
         SELECT pickup_date, vendor_id, passenger_count, trip_distance, payment_type, fare_amount, tip_amount
         FROM tripdata 
-        WHERE pickup_date = '2015-01-02'
+        WHERE pickup_date = '2015-01-03'
         -- WHERE year(pickup_date) = 2015 and month(pickup_date) = 1 and dayOfMonth(pickup_date) = 1;
         """
         
